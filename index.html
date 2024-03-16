@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo-Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <!-- Ligação entre HTML e CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <div class="container">
+
+            <div class="btn-menu">
+
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+
+
+            <nav class="menu">
+                <a href="#">Início</a>
+                <a href="#historia">Minha História</a>
+                <a href="#conhecimentos">Conhecimentos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="slider">
+
+        <section class="hero-section bg-1">
+
+            <div class="container">
+                <h1>Desenvolvedor em desenvolvimento!</h1>
+                <p>Aqui compartilho uma parte da minha vida e uma parte do meu trabalho.
+                </p>
+
+                <a href="#" class="btn">Conheça meu Portfólio</a>
+            </div>
+        </section>
+
+        <section class="hero-section bg-1">
+
+            <div class="container">
+                <h1>Informações Pessoais para contato</h1>
+                <p>Endereço: Avenida Chrisostomo Pimentel de Oliveira, 1933 casa 49, Anchieta, Rio de Janeiro, RJ.
+                </p>
+                <p>Contato: (21) 9 6814-2948 - WhatsApp</p>
+                <p></p>
+
+                <a href="#" class="btn">Conheça meu Portfólio</a>
+            </div>
+        </section>
+    </div>
+    <section class="container minha-historia" id="historia">
+
+
+        <div class="content">
+            <h2>Minha História</h2>
+            <p>E aí, pessoal! Sou o Wallace Mello dos Santos, tenho 30 anos e tô me jogando de cabeça na área de
+                tecnologia, mais especificamente, na incrível e apaixonante área de programação!
+
+                Antes de virar um dev em potencial, minha vida era toda no mundo da segurança. Já fiz um pouco de tudo:
+                fui segurança pessoal e até mesmo trabalhei no Consulado Geral da França. Mas agora, tô mudando de ares
+                e entrando nesse universo digital cheio de desafios e oportunidades..</p>
+
+
+            <p>Na minha experiência anterior, aprendi a importância de falar bem e trabalhar em equipe. E olha que eu
+                era o
+                líder da parada quando o assunto era segurança VIP! Ou seja, tenho no meu DNA a liderança e a habilidade
+                de fazer as coisas acontecerem, mesmo sob pressão.
+
+                Agora, tô aqui, pronto pra encarar essa nova fase e botar minhas habilidades em prática. Afinal, a vida
+                é feita de desafios, e eu tô mais do que preparado pra encarar esse novo!!</p>
+        </div>
+
+    </section>
+
+   <!-- <section class="faca-parte">
+
+        <div class="container">
+
+            <div class="content">
+                <h2>Faça parte do time</h2>
+                <p>Na HardCore, oferecemos um ambiente de treino de classe mundial. Nossas instalações são equipadas com
+                    o que há de melhor em equipamentos de CrossFit, proporcionando o cenário ideal para o seu sucesso.
+                    Aqui, cada detalhe é pensado para maximizar sua experiência de treino. Venha fazer parte de uma
+                    comunidade que valoriza a dedicação, a disciplina e a determinação.</p>
+            </div>
+
+        </div>
+
+    </section>-->
+
+    <div class="container conhecimentos" id="conhecimentos">
+        <h2>Conhecimentos</h2>
+        <p>Experiência com HTML5, CSS3, JavaScript, Bootstrap, Sass e jQuery. Agora, estou mergulhando fundo
+            nos estudos de Angular e ReactJS para fortalecer ainda mais minha base de conhecimento.
+
+            O aprendizado é contínuo e estou pronto para os desafios que vêm pela frente!
+
+        </p>
+
+        <img src="img/Group 2.png" alt="">       
+
+    </div>
+
+    <div class="container fale-conosco" id="contato">
+
+        <div class="contato">
+            <h2>Fale com o Dev Aqui!</h2>
+            <p>Estamos aqui para responder a todas as suas perguntas, ouvir suas sugestões e ajudar você a iniciar sua
+                o seu projeto.
+            </p>
+
+            <form>
+                <input type="text" placeholder="Digite seu nome" required minlength="3"
+                    pattern="^[a-zA-ZÀ-ÖØ-öø-ÿÇç]{3,}\s[a-zA-ZÀ-ÖØ-öø-ÿÇç]{3,}$"
+                    title="Digite um nome e um sobrenome com no mínimo 3 caracteres cada.">
+                <input type="text" placeholder="Digite seu e-mail" required>
+                <input type="text" placeholder="Digite seu telefone" required data-mask="(00)0-0000-0000">
+
+                <textarea placeholder="Digite sua mensagem"></textarea>
+
+                <button class="btn btn-outline">Enviar mensagem</button>
+
+            </form>
+
+        </div>
+
+        <!--<div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1595136357555!2d-43.17906502468954!3d-22.907486579254552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f606640bb73%3A0x1ef710745c1fc7cc!2sAv.%20Rio%20Branco%2C%20185%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020040-007!5e0!3m2!1spt-BR!2sbr!4v1705502672280!5m2!1spt-BR!2sbr"
+                width="558" height="460" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> -->
+
+    </div>
+    <div class="container final-pagina">
+
+        <footer class="footer">
+
+            <p>
+                Desenvolvedor em desenvolvimento
+            </p>
+
+    </div>
+
+
+   <!-- <nav class="social">
+
+        <a href="#"><img src="img/twitter.svg" alt=""></a>
+        <a href="#"><img src="img/facebook.svg" alt=""></a>
+        <a href="#"><img src="img/youtube.svg" alt=""></a>
+
+
+    </nav>-->
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".slider").bxSlider({
+                mode: 'horizontal',
+                auto: true,
+                pause: 4000,
+                autoHover: true,
+                randomStart: true,
+            });
+        });
+    </script>
+
+    <!--Ligação entre html e javascript-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
